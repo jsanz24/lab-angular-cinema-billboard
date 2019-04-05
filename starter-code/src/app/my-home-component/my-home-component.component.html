@@ -1,0 +1,7 @@
+<div class="floatable">
+  <div *ngFor="let movie of movies">
+    <h2>{{movie.title}}</h2>
+    <img [src]="movie.poster"/> 
+    <p>{{movie.director}}</p>
+  </div>
+</div>
